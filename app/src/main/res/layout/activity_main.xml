@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+    android:orientation="vertical" android:background="#DEDEDE">
+
+    <TextView
+        android:id="@+id/statisticalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/statisticalText"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#6F96AB"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0" >
+
+        <TextView
+            android:id="@+id/CountingNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="70dp" android:textColor="#616161"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/ErrorCnts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ErrorCnts"
+                android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#6F96AB"/>
+
+            <TextView
+                android:id="@+id/errors_cnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#737373"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" android:textColor="@color/bule_backg"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:orientation="vertical" android:background="#6F96AB">
+
+        <TextView
+            android:id="@+id/Showreuslt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Showreuslt"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <Button
+                android:id="@+id/Listresluts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Listresluts" android:textColor="@color/fonts"/>
+
+            <Button
+                android:id="@+id/Show_the_barchart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Show_the_barchart" android:textColor="@color/fonts"/>
+
+            <Button
+                android:id="@+id/Errors_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/List_Errors_detail" android:textColor="@color/fonts"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/textView_Control_Panel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/textView_Control_Panel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/remain_gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <TextView
+                android:id="@+id/Vtoes_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Vtoes_switch"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.spiralroam.app.smsvote.SlipButton
+                android:id="@+id/vote_switch_slipButton"
+                android:layout_width="96dp"
+                android:layout_height="27dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/Anomyous_Switchs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Anomyous_Switchs"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.spiralroam.app.smsvote.SlipButton
+                android:id="@+id/stopBroadcast_switch_slipButton"
+                android:layout_width="96dp"
+                android:layout_height="27dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" android:background="#6F96AB">
+
+        <Button
+            android:id="@+id/btn_Config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_Config" android:textColor="@color/fonts"/>
+
+        <Button
+            android:id="@+id/btn_Restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_Restart" android:textColor="@color/fonts"/>
+
+    </LinearLayout>
+
+</LinearLayout>

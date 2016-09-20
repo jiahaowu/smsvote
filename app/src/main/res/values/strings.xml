@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">短信投票</string>
+    <string name="chart_Name">柱状得票统计图</string>
+    <string name="y_Axis_Name">所得票数/张</string>
+    <string name="x_Axis_Name">被选举人编号</string>
+    <string name="exit_Warming">退出将会停止计票，确定要退出短信投票系统吗？</string>
+    <string name="sys_Warming_Title">系统提示</string>
+    <string name="yes">确定</string>
+    <string name="cancel">取消</string>
+    <string name="show_result_btn">显示柱状统计图</string>
+    <string name="show_the_barchart">显示柱状图</string>
+    <string name="show_the_errors">显示无效票</string>
+    <string name="countingNumber_initial">未开始</string>
+    <string name="statisticalText">投票总数</string>
+    <string name="ErrorCnts">无效票数</string>
+    <string name="Showreuslt">结果显示</string>
+    <string name="Listresluts">列表统计</string>
+    <string name="Show_the_barchart">柱状统计</string>
+    <string name="List_Errors_detail">查无效票</string>
+    <string name="textView_Control_Panel">控制面板</string>
+    <string name="Vtoes_switch">开始投票</string>
+    <string name="Anomyous_Switchs">匿名模式</string>
+    <string name="btn_Config">设置菜单</string>
+    <string name="btn_Restart">快速重置</string>
+    <string name="btn_getmoreScore">赚取金币</string>
+    <string name="votes_per_person">可投票数</string>
+    <string name="votes_per_person_info">设置每个投票者的投票上限</string>
+    <string name="cnt_people_number">参选人数</string>
+    <string name="cnt_people_number_info">设置被选举者总数</string>
+    <string name="setting">设置：</string>
+    <string name="youhave">您还有</string>
+    <string name="golds">金币</string>
+    <string name="not_enough_warming1">您的金币不足</string>
+    <string name="unit">个</string>
+    <string name="descrip1">当前被选举人数为</string>
+    <string name="descrip2">，每位选民的可投票数为</string>
+    <string name="descrip3">。无效票将会自动存入收件箱。更改设置请在投票未开始时进行。</string>
+    <string name="setting_Warming">要进入设置菜单，请先手动关闭计票功能 。此操作会停止投票功能和清除以前统计到的数据。</string>
+    <string name="not_enough_warming2">,若要继续操作需先赚取金币，是否现在去赚取金币？</string>
+    <string name="golds_Warming">进入获取金币界面会停止投票并清除数据，确定要继续么？</string>
+    <string name="vote_unit">票</string>
+    <string name="list_words_2">号\n获得</string>
+    <string name="list_words_1">名被选者是</string>
+    <string name="list_words_head">得票第</string>
+    <string name="errName">发送人：</string>
+    <string name="err_contents">内容：</string>
+    <string name="connection_failed">与服务器连接暂时不可用，请确认您已经连接网络后再试。</string>
+    <string name="manual_title">使用说明</string>
+    <string name="manual_info">短信投票服务器，通过对短信内容智能处理，实现投票统计的功能，免去了传统纸质投票的唱票的繁琐过程，也提高了准确度与可信度。\n\n
+        使用步骤说明\n
+        第一步：请先进入“设置菜单”，分别设置“参选人数”和“可投票数”的参数，默认情况为无人参
+
+加竞选，且每一个投票者每票可投最多1人。您可以根据你的实际需要进行更改。（可投票数的上限不代表必
+
+须达到，如设置上限为3人/票，那么如果参与者只投了2人，服务器依然按正常票统计2人，不会划入异常票
+
+）。\n
+第二步：返回到主面板，确定你是否使用“匿名模式”的投票，该选项默认关闭，投票短信经过服务
+
+器统计之后会自动存入收件箱以供以后查看；如果选举需要进行匿名，则可以打开此开关，则除了无效票会
+
+被自动记录和存入收件箱以外，其余投票则会在统计后删除（注意：不可逆操作！）\n
+第三步：确保金币足够开启投票，打开开始投票开关，统计投票，等待结果。\n
+第四步：查看投票结果，我们为您提供了三种查看结果的方式，“列表统计”按照的票数由高到低的
+
+顺序将被选者依次排列，便于查看结果，和公布票数。“柱状统计”以柱状图的形式一次列出各位被选者的
+
+的票数，形象直观。最后我们给出“查无效票”选项，其中记录各种为按照规定形式投票，结果中没有被统
+
+计到的短信票，您可以更具无效票的实际情况，对投票结果进行人为修正，以保证投票的公平公正。\n\n
+
+投票短信编写说明\n
+您需要首先将N位被选者，按照1到N的整数进行编号，并告知投票者，投票者编辑短信的内容即为他所支持的
+
+人的编号，如果每人可支持人数不只一人，则每个人的编号用空格或者逗号隔开（两者均可）。\n
+例如：每人可以支持3人，现在投票支持1号4号和5号，则编辑短信“1 4 5”或者“1，4，5”（不包括引号
+
+）发送到安装此软件的手机上即可。\n\n
+
+金币消耗与赚取说明\n
+服务器初次使用时赠送您150个金币，用于基本的使用消耗：每次启动“开始投票”选项消耗10个金币；每次
+
+进入设置选项消耗3个金币，其余所有操作不消耗任何金币。如需补充金币，可以点击右下角的“赚取金币”
+
+按键，进入应用列表下载任意一款软件，即可补充相应个数金币，对于普通的使用完全够用，我们建议您最好在
+
+有WIFI时下载，以免消耗您的流量。\n
+</string>
+    <string name="get_pro">软件定制</string>
+    <string name="pro_info">如果需要去除金币限制或添加其他功能，可以与我们联系订购。\n
+        E-mail: vsylar@qq.com\n
+        来信请注明“短信投票服务器定制”
+</string>
+
+    <color name="bule_backg">#6F96AB</color>
+
+    <string name="reset_Warming">要重置设置，请先手动关闭计票功能 。此操作会停止投票功能和清除以前统计到的数据。</string>
+
+    <color name="fonts">#616161</color>
+
+</resources>
