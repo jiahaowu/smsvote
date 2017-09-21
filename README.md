@@ -9,8 +9,8 @@
 
 ## Screenshots
 
-![Initialization](images/1.png | width=300)
+![Initialization](images/1.png)
 
-![Counting](images/2.png | width=300)
+![Counting](images/2.png)
 
-![histogram](images/3.png | width=300)
+![histogram](images/3.png)
